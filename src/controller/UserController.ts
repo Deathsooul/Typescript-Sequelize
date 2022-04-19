@@ -17,3 +17,5 @@ class UserController {
   async update(req: Request, res: Response) {}
   async destroy(req: Request, res: Response) {}
 }
+
+export default new UserController();

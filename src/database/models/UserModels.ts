@@ -9,11 +9,11 @@ export const UserModel = db.define("user", {
     primaryKey: true,
   },
   email: {
-    type: DataTypes.INTEGER,
+    type: DataTypes.STRING,
     allowNull: false,
   },
   nome: {
-    type: DataTypes.INTEGER,
+    type: DataTypes.STRING,
     allowNull: false,
   },
   idade: {
